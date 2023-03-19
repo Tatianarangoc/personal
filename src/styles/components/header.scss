@@ -1,0 +1,115 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &__logo {
+    width: 100px;
+    height: 100px;
+  }
+}
+.header__nav {
+  margin-bottom: 20px;
+  background-color: #bface2;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .header__nav {
+    width: 50%;
+  }
+  .header__logo {
+    width: 140px;
+    height: 130px;
+  }
+}
+.header-link {
+  color: var(--white);
+  font-size: 13px;
+  text-decoration: none;
+  font-family: var(--font);
+  display: list-item;
+  padding: 8px;
+}
+
+.header__nav a {
+  position: relative;
+  display: list-item;
+}
+
+.header__nav--list {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.border {
+  position: absolute;
+  left: 0;
+  background: currentColor;
+  transition: transform var(--transition-duration) ease-in-out;
+}
+
+.header__nav--list .border-top,
+.header__nav--list .border-bottom {
+  width: 100%;
+  height: 1px;
+  transform: scaleX(0);
+}
+
+.header__nav--list .border-left,
+.header__nav--list .border-right {
+  width: 1px;
+  height: 100%;
+  transform: scaleY(0);
+}
+
+.header__nav--list .border-top,
+.header__nav--list .border-left,
+.header__nav--list .border-right {
+  top: 0;
+}
+
+.header__nav--list .border-bottom {
+  bottom: 0;
+  transform-origin: bottom right;
+}
+
+.header__nav--list .border-top {
+  transform-origin: top left;
+}
+.header__nav--list .border-left {
+  transform-origin: bottom left;
+}
+
+.header__nav--list .border-right {
+  left: auto;
+  right: 0;
+  transform-origin: top right;
+}
+
+.header__nav--list a:hover .border-top,
+.header__nav--list a:hover .border-bottom {
+  transform: scaleX(1);
+  color: var(--line-color);
+}
+
+.header__nav--list a:hover .border-left,
+.header__nav--list a:hover .border-right {
+  transform: scaleY(1);
+  color: var(--line-color);
+}
+
+.header__nav--list a:hover .border-right {
+  transition-delay: var(--transition-delay);
+}
+
+.header__nav--list a:hover .border-bottom {
+  transition-delay: calc(var(--transition-delay) * 2);
+}
+
+.header__nav--list a:hover .border-left {
+  transition-delay: calc(var(--transition-delay) * 3);
+}

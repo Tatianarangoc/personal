@@ -1,0 +1,15 @@
+.content__img {
+  margin-top: 10px;
+  min-width: 400px;
+  min-height: 315px;
+}
+@media (min-width: 768px) {
+  .content__img {
+    width: 450px;
+    height: 354px;
+  }
+}
+.img {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,39 @@
+.footer {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bface2;
+}
+.footer__nav--list {
+  align-items: center;
+  justify-content: center;
+}
+.linkedin,
+.twitter,
+.github {
+  width: 20px;
+}
+.linkedin:hover,
+.twitter:hover,
+.github:hover {
+  border: 2px solid var(--line-color);
+}
+.download {
+  font-family: var(--font);
+  color: var(--white);
+}
+.download:hover {
+  border: 2px solid var(--line-color);
+  padding: 5px;
+}
+@media (min-width: 768px) {
+  .linkedin,
+  .twitter,
+  .github {
+    width: 30px;
+  }
+  .footer {
+    justify-content: space-around;
+  }
+}

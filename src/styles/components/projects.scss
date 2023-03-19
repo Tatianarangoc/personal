@@ -1,0 +1,20 @@
+.name {
+  height: 250px;
+  width: 300px;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+.name:hover {
+  height: 300px;
+  width: 350px;
+  box-shadow: 5px 5px 5px 10px #bface2;
+  border-radius: 5%;
+}
+@media (min-width: 768px) {
+  .projects {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
