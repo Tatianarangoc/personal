@@ -51,7 +51,7 @@ function Contact() {
 
       <div className="contacto">
         <form className="formulario" action="#" method="POST">
-          <legend>Contact me by filling in all the fields</legend>
+          <legend>Contáctame llenando todos los campos</legend>
 
           <div className="contenedor-campos">
             <div className="campo">
