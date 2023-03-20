@@ -91,7 +91,7 @@ function Aboutme() {
         <section className="aboutme__content">
           <h2 className="aboutme__subtitle">Puedo ayudarte</h2>
           <p class="aboutme__content--text">
-            Si tienes agun proyecto que quieras comenzas y piensas que necesitas
+            Si tienes agun proyecto que quieras comenzar y piensas que necesitas
             mi ayuda con algo o solo deseas saludar entonces colocate en
             contacto conmigo.
           </p>
