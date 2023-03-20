@@ -18,7 +18,7 @@ function Contact() {
               {' '}
               <NavLink className=" header-link" to="/Aboutme">
                 {' '}
-                About me
+                Sobre mi
                 <span classNames="border border-top"></span>
                 <span className="border border-right"></span>
                 <span className="border border-bottom"></span>
@@ -28,7 +28,7 @@ function Contact() {
             <li>
               <NavLink className=" header-link" to="/Projects">
                 {' '}
-                Projects
+                Proyectos
                 <span classNames="border border-top"></span>
                 <span className="border border-right"></span>
                 <span className="border border-bottom"></span>
@@ -38,7 +38,7 @@ function Contact() {
             <li>
               <NavLink className=" header-link" to="/Contact">
                 {' '}
-                Contact
+                Contacto
                 <span classNames="border border-top"></span>
                 <span className="border border-right"></span>
                 <span className="border border-bottom"></span>
