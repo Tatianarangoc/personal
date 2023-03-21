@@ -1,15 +1,18 @@
 .content__img {
-  margin-top: 10px;
-  min-width: 400px;
-  min-height: 315px;
+  margin-top: 20px;
+  min-width: 500px;
+  min-height: 550px;
 }
 @media (min-width: 768px) {
   .content__img {
-    width: 450px;
-    height: 354px;
+    margin-top: 12px;
+    width: 580px;
+    height: 656px;
+    
   }
 }
 .img {
   display: flex;
   justify-content: center;
+  
 }

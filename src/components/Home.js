@@ -9,12 +9,12 @@ function Home() {
   return (
     <>
       <header className="header">
-        <NavLink className=" logo" to="/">
-          <img className="header__logo" src={logo} alt="logo" />
-        </NavLink>
-
+       
         <nav className="header__nav">
           <ul className="header__nav--list">
+            <li><NavLink className=" logo" to="/">
+          <img className= "  header__logo" src={logo} alt="logo" />
+        </NavLink></li> 
             <li>
               {' '}
               <NavLink className=" header-link" to="/Aboutme">
