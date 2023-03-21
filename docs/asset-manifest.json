@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.257bac9d.css",
+    "main.css": "./static/css/main.d2ab0a47.css",
     "main.js": "./static/js/main.c1a801f2.js",
     "static/media/cvTatianaArango.pdf": "./static/media/cvTatianaArango.6c91de97b0daef0fb92c.pdf",
     "static/media/picture.png": "./static/media/picture.708feab7b92827dc44cd.png",
@@ -24,11 +24,11 @@
     "static/media/js.png": "./static/media/js.3dfb665e058d08c99f28.png",
     "static/media/linkedin.png": "./static/media/linkedin.13035068ddd54fca740f.png",
     "index.html": "./index.html",
-    "main.257bac9d.css.map": "./static/css/main.257bac9d.css.map",
+    "main.d2ab0a47.css.map": "./static/css/main.d2ab0a47.css.map",
     "main.c1a801f2.js.map": "./static/js/main.c1a801f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.257bac9d.css",
+    "static/css/main.d2ab0a47.css",
     "static/js/main.c1a801f2.js"
   ]
 }
